@@ -49,8 +49,7 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
-=======
+
 
 		<!-- Spring Data JPA -->
 		<dependency>
@@ -65,7 +64,6 @@
 			<scope>runtime</scope>
 		</dependency>
 
->>>>>>> 25939b1 (first commit)
 	</dependencies>
 
 	<build>
