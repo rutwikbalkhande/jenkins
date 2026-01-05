@@ -1,13 +1,15 @@
 package com.example.Jenkins;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class controller {
 
+    @GetMapping("/")
     public String jenkins()
     {
         System.out.println("freestyle jenkins CI CD check");
-        return "hello jenkins check";
+        return "hello jenkins work";
     }
 }
