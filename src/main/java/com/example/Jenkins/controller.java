@@ -10,6 +10,6 @@ public class controller {
     public String jenkins()
     {
         System.out.println("freestyle jenkins CI CD check");
-        return "hello jenkins work";
+        return "hello jenkins now run";
     }
 }
